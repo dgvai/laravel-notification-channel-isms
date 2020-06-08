@@ -35,7 +35,7 @@ class ISMSClient
         return $response;
     }
 
-    protected function sendSMS($msisdn, $messageBody)
+    public function sendSMS($msisdn, $messageBody)
     {
         $params = [
             "api_token" => $this->API_TOKEN,

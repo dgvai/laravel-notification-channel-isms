@@ -4,7 +4,7 @@ namespace DGvai\ISMS;
 use DGvai\ISMS\Exceptions\ISMSException;
 use Illuminate\Support\ServiceProvider;
 
-class OnnorokomSMSServiceProvider extends ServiceProvider
+class ISMSProvider extends ServiceProvider
 {
     public function boot()
     {
